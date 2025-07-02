@@ -21,21 +21,21 @@
 }
 
 .container h2 {
-    font-size: 24px; /* Slightly reduce font size for better proportion */
+    font-size: 24px; 
     font-weight: 500;
 }
 
 .container ul li {
     display: flex;
     align-items: center;
-    height: 60px; /* Reduce height slightly */
+    height: 60px; 
     padding-left: 15px;
     border: 1px solid #686868;
     border-radius: 8px;
-    margin-bottom: 15px; /* Adjust spacing for compactness */
-    font-size: 18px; /* Slightly smaller font */
+    margin-bottom: 15px; 
+    font-size: 18px; 
     cursor: pointer;
-    transition: background 0.2s ease; /* Add a hover effect */
+    transition: background 0.2s ease; 
 }
 
 .container ul li:hover {
@@ -44,20 +44,20 @@
 
 .container button {
     margin: auto;
-    width: 80%; /* Adjust button width for better responsiveness */
+    width: 80%; 
     max-width: 250px;
-    height: 60px; /* Adjust height slightly */
+    height: 60px; 
     background: #553f9a;
     color: #fff;
-    font-size: 20px; /* Reduce font size for better proportion */
+    font-size: 20px; 
     font-weight: 500;
     border-radius: 8px;
     cursor: pointer;
-    transition: background 0.2s ease; /* Add a hover effect */
+    transition: background 0.2s ease; 
 }
 
 .container button:hover {
-    background: #472b85; /* Darken the button on hover */
+    background: #472b85; 
 }
 
 .container .index{
@@ -79,7 +79,7 @@
 @media (max-width: 768px) {
     .container {
         margin: 100px auto;
-        padding: 15px 20px; /* Reduce padding further */
+        padding: 15px 20px; 
     }
     
     .container h2 {
